@@ -9,7 +9,7 @@ To begin, ensure you have the required Python packages installed: Matplotlib, Nu
 
 The script is designed to be executed from the command line, with the company symbol provided as an argument. The format for running the script is python script_name.py 'COMPANY_SYMBOL', where COMPANY_SYMBOL is the ticker symbol of the company you want to analyze. For instance, to analyze Apple Inc., you would run python script_name.py AAPL.
 
-The script begins by importing the necessary libraries. It includes libraries for plotting (matplotlib), numerical computations (numpy), random number generation (random), mathematical functions (math), data manipulation (pandas), and handling system-specific parameters and functions (sys).
+The script begins by importing the necessary libraries. It includes libraries for plotting (matplotlib), numerical computations (numpy), random number generation (random), mathematical functions (math), data manipulation (pandas), and handling system-specific parameters and functions (sys). 
 
 The script defines several functions. The calcular_beta1 function calculates the slope (beta1) of the linear regression line using the least squares method. The calcular_beta0 function calculates the intercept (beta0) of the linear regression line. The get_csv function fetches historical stock data for the specified company from Yahoo Finance by downloading a CSV file.
 
